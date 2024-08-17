@@ -1,0 +1,16 @@
+*{ /*CSS reset*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+*{ /*definições genéricas de todas as tags de todas as páginsa*/
+    font-family: "Titillium Web", sans-serif;
+}
+
+a, a:visited{
+    color: black;
+    text-decoration: none;
+}
