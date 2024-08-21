@@ -27,7 +27,10 @@ header a:hover{
 }
 
 header > nav{
+    display: block;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    min-width: 90%;
+    max-width: 100%;
 }
