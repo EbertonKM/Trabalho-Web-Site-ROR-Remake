@@ -17,13 +17,14 @@ header a{
    display: inline-block;
    margin: 0 10px;
    padding: 5px 7px;
+   transition: transform 0.2s ease;
 }
 
 header a:hover{
     background-color: darkslategrey;
     color: white;
-    transform: scale(1.07);
-    transition: transform 0.1s ease-in-out;
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
 }
 
 header > nav{
