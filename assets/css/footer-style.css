@@ -10,7 +10,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     bottom: 0px;
-    position: absolute;
+    position: relative;
 }
 
 footer > img{
