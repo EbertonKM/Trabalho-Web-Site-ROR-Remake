@@ -14,10 +14,12 @@ footer{
 }
 
 footer > img{
-    height: 100%;
+    max-height: 100%;
+    max-width: 33vw;
 }
 
 .footer-options > a{
+    display: inline-block;
     margin: 0 15px;
     padding: 5px 7px;
 }
@@ -29,4 +31,6 @@ footer > img{
 
 footer > p{
     font-size: smaller;
+    max-width: 35vw;
+    text-align: justify;
 }

@@ -10,6 +10,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    z-index: 1;
 }
 
 header a{
@@ -28,10 +29,9 @@ header a:hover{
 }
 
 header > nav{
-    display: block;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     min-width: 90%;
     max-width: 100%;
 }
