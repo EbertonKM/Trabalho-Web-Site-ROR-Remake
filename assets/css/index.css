@@ -26,7 +26,8 @@
     display: block;
     margin: 0 auto;
     margin-top: 100px;
-    max-width: 80%;
+    max-width: 70%;
+    min-width: 450px;
 }
 
 .tags{ /*div container das tags do jogo*/
@@ -40,7 +41,7 @@
     display: inline-block;
     padding: 3px 0;
     margin: 2px 25px;
-    width: 200px;
+    width: 210px;
 }
 
 .first-container > a{ /*botão jogue agora*/
@@ -67,4 +68,29 @@
     border-bottom: 1px solid rgba(153, 153, 153, 0.5);
     border-left: 1px solid rgba(220, 220, 220, 0.5);
     border-right: 1px solid rgba(153, 153, 153, 0.5);
+}
+
+.informacoes section{ /*cada seção de informação*/
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(220, 220, 220, 0.5);
+    border-bottom: 1px solid rgba(153, 153, 153, 0.5);
+    border-left: 1px solid rgba(220, 220, 220, 0.5);
+    border-right: 1px solid rgba(153, 153, 153, 0.5);
+    display: flex;
+
+}
+
+.informacoes section img{ /*cada uma das quatro imagens das informacoes*/
+    display: inline-block;
+    max-width: 30%;
+}
+
+.info2, .info4{
+    flex-direction: row-reverse;
+}
+
+.info-text{ /*div do título + informacao*/
+    display: inline-block;
+    min-width: 760px;
 }
