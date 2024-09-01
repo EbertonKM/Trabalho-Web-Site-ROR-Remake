@@ -35,3 +35,9 @@ header > nav{
     min-width: 90%;
     max-width: 100%;
 }
+
+@media screen and (max-width:768px){
+    header nav{
+        flex-wrap: wrap;
+    }
+}
