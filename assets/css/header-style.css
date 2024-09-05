@@ -15,7 +15,6 @@ header{
 
 header a{
    color: black;
-   display: inline-block;
    margin: 0 10px;
    padding: 5px 7px;
    transition: transform 0.2s ease;
@@ -28,7 +27,7 @@ header a:hover{
     transition: transform 0.2s ease;
 }
 
-header > nav{
+header nav{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -37,7 +36,20 @@ header > nav{
 }
 
 @media screen and (max-width:768px){
+    header{
+        height: 100px;
+    }
+
     header nav{
         flex-wrap: wrap;
+    }
+
+    header nav div{
+        text-align: center;
+        width: 100%;
+    }
+
+    header a{
+        margin: 10px 10px;
     }
 }
