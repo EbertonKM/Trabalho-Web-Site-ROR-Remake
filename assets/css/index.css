@@ -114,8 +114,12 @@
     }
 
     .info-text p{
-        max-width: 50%;
+        max-width: 90%;
         white-space: normal;
         word-wrap: break-word;
+    }
+
+    .informacoes section{
+        flex-direction: row;
     }
 }
